@@ -1,4 +1,3 @@
-
 --- 1. Retrieve bookings with the appropriate customer information, sorted by the total amount of payments made by the customer:
 
 SELECT B.*, C.FirstName, C.LastName, SUM(P.Amount) AS TotalPaymentAmount
